@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт верстальщика</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Личный сайт верстальщика</h1>
+        <img src="img/wand-magic-sparkles-solid.svg" alt="Логотип" width="80px">
+        <nav id="navigation">
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#articles">Мои статьи</a></li>
+                <li><a href="#feedback">Обратная связь</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <style>
+            p {
+                line-height: 20px;
+                margin-bottom: 5px;
+            }
+            img {
+border: 3px solid black;
+border-radius: 0.2cm;
+box-shadow: 100cm
+}
+ 
+        </style>
+        <section id="about">
+            <h2> Обо мне</h2>
+            <a href="img/avatar.jpg" download><img src="img/avatar.jpg" alt="Фото"></a>
+            <p><mark>Верстальщик</mark> — это специалист, который прорабатывает внешний вид сайта. Дизайнер рисует макет, а задача верстальщика — сделать так, чтобы в браузерах пользователей сайт отображался как задумано.</p>
+
+            <p>Сложность в том, что нельзя просто загрузить картинки. Браузеру нужно получить инструкцию на специальных языках:</p>
+            <ol>
+                <li><strong>HTML</strong>, язык гипертекстовой разметки. Позволяет задать структуру отображения сайта и создать интерактивные элементы: формы, выпадающие списки, кнопки.</li>
+                <li><strong>CSS</strong>, каскадные таблицы стилей. С их помощью задают форму, шрифты и цвета разных элементов.</li>
+            </ol>
+            <p>HTML и CSS не позволяют ничего вычислять, анализировать и изменять, не содержат функций и последовательности действий, а только задают внешний вид сайта так, чтобы браузер пользователя мог его понять и правильно отобразить.Поэтому верстальщик — не совсем программист. Для карьерного роста верстальщику полезно знать языки программирования, например JavaScript, который тоже нужен для формирования внешнего вида сайта.</p> 
+            <p>Часто отдельного верстальщика в компании вообще нет, а вёрсткой занимается фронтенд-разработчик, который знает HTML, CSS и JavaScript.</p>
+            <p>Верстальщиками ещё называют специалистов, которые создают макеты книг, журналов, плакатов для печати. Это отдельная профессия, больше связанная с дизайном, и в этой статье речь пойдёт не о ней, а именно о верстальщиках в IT, которых иногда называют HTML-верстальщиками, верстальщиками сайтов или веб-верстальщиками.</p>
+            <p lang="en">text here</p>
+        </section>
+        <section id="articles">
+            <h2> Мои статьи</h2>
+            <ol class="menu-articles">
+                <li><a href="article1.html">Что такое HTML?</a></li>
+                <li><a href="article2.html">Что такое CSS?</a></li>
+                <li><a href="article3.html">Лучшие редакторы кода</a></li>
+                <li id="termy"><a href="article4.html">Список терминов</a></li>
+                <li><a href="article5.html">Определение структуры сайта</a></li>
+            </ol>
+        </section>
+
+        <section id="feedback">
+            <h2>Обратная связь</h2>
+
+            <form id="contact-form">
+                
+                <div class="form_item">
+                <label for="topic"><em>Тема</em></label><br>
+                <select name="topic" id="topic" required>
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+                </div>
+
+                <div class="form_item">
+                    <label for="name"><em>Имя</em></label><br>
+                    <input name="name" id="name" type="text" placeholder="Введите имя" required>
+                    </div>
+
+                    <div class="form_item">
+                        <label for="email"><em>E-mail</em></label><br>
+                        <input name="email" id="mail" type="email" placeholder="Введите E-mail" required>
+                        </div>
+
+            
+                <div class="form_item">
+                    <label for="textarea"><em>Текст сообщения</em></label><br>
+                <textarea id="textarea" rows="3" placeholder="Введите текст" required></textarea>
+                </div>
+
+                <div class="form_item">
+                    <label for="date"><em>Дата</em></label><br>
+                        <input type="date">
+                </div>
+
+                <div class="form_item">
+                    <label for="tel"><em>Телефон</label</em></label><br>
+                        <input type="tel" placeholder="Введите номер" required>
+                </div>
+
+                <div class="form-item">
+                <label for="checkbox"></label>
+                    <input type="checkbox" value="" checked>Согласие с политикой конфиденциальности
+                    </div><br>
+
+
+                <div class="form_item">
+                <input type="submit" value="Отправить">
+                </div>
+
+                
+
+            </form>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; Суркова Екатерина, 2023</p>
+        <p id="end">Вы также можете найти меня 
+            <a target="_blank" href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/dizayn/veb-dizayn-i-mobilnaya-razrabotka/">здесь</a></p>
+
+            <section id="links">
+           <p><a target="_blank" href="https://midis.ru/midis-obrazovanie-s-trudoustroystvom/dizayn/veb-dizayn-i-mobilnaya-razrabotka/"><img src="img/backpack.svg" alt="Соцсеть">
+           </a>
+           <a target="_blank" href="https://www.behance.net/"><img src="img/behance.svg" alt="Соцсеть">
+           </a></p>
+        </section>
+    </footer>
+
+</body>
+
+</html>

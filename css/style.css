@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: rgb(163, 169, 185);
+    text-align: center;
+}
+
+main {
+    background-color: rgb(150, 151, 176);
+
+}
+
+footer {
+    background-color: rgb(226, 226, 226);
+    padding: 10px 50px;
+}
+
+#about {
+    background-color: rgba(154, 135, 161, 0.5);
+    text-align: left;
+    padding: 13px 50px;
+    font-style: italic;
+    border: 5px solid black;
+}
+
+#articles {
+    background-color: rgb(170, 193, 206);
+    padding: 10px 50px;
+}
+
+#feedback {
+    text-align: left;
+    padding: 13px 50px;
+}
+
+#contact-form {
+    padding: 10px 50px;
+    color:#000000;
+}
+
+#topic {
+    height: 33px;
+    width: 262px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+
+#textarea {
+    height: 150px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+
+#contact-form input[type="text"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+
+#contact-form input[type="email"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+
+#contact-form input[type="date"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+
+#contact-form input[type="tel"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+
+#contact-form input[type="text"] {
+    background-color: #eddfff;
+}
+
+
+#contact-form input[type="submit"] {
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 0px;
+    background-color: #9e82c4;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #5b28a3;
+}
+
+#contact-form input[type="checkbox"] {
+    color: #5b28a3;
+}
+
+
+#contact-form input[type="submit"]:hover {
+    background-color: #eddfff;
+}
+
+
+#content {
+    background-color: rgb(170, 193, 206);
+    text-align: center;
+    padding: 10px 50px;
+}
+dd {
+    padding: 20px;
+}
+mark {
+    background: rgb(149, 172, 194);
+    color: black;
+}
+
+p {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+ol {
+    text-align: left;
+    padding-left: 20px;
+}
+ul {
+    padding-left: 50px;
+    list-style: none;
+}
+#articles a:link {
+    color: red;
+}
+#articles a:hover {
+    color: green;
+}
+#articles a:focus {
+    color: blue;
+}
+#articles a:visited {
+    color: yellow;
+}
+#articles a:active {
+    color: black;
+}
+
+#navigation a:hover {
+    color: green;
+}
+
+#navigation a:focus {
+    color: blue;
+}
+
+#end a:hover {
+    color: green;
+}
+
+#end a:focus {
+    color: blue;
+}
+
+.menu-articles li:nth-child(2n) {
+    background-color: black;
+}
+
+p:lang(ru) {
+    text-decoration: underline;
+}
+p:lang(en) {
+    text-transform: uppercase;
+}
+
+#about h2::after {
+    content: "new!";
+    font-size: 10px;
+    color: red;
+    margin-left: 10px;
+}
+
+#termy a::before {
+    content: "Важно!";
+    font-size: 10px;
+    color: black;
+    background-color: green;
+    border: 3px solid red
+
+} 
+
+#content p::first-line {
+    color: rgb(54, 14, 14); }
+
+#links a {
+    background-color: rgb(150, 151, 176);
+    ;
+}
+
+#about p, li {
+    color: rgb(3, 49, 3)
+}
+
+.oner+h3{
+    margin-top: 30px;
+}
+
+
+
+
+.bill-table {
+    border: 2px rebeccapurple solid;
+    border-collapse: collapse;
+}
+.bill-table td,
+.bill-table th{
+    border-bottom: 1px black solid;
+    padding: 5px 20px;
+}
+
+.bill-table tbody tr:nth-child(odd) {
+color: rebeccapurple; 
+}
+.bill-table td:nth-child(3) {
+    text-decoration: underline;
+}
+
+#reg-form input[type=text],
+#reg-form input[type=password] {
+    border: 1px solid rebeccapurple;
+    background: lightcy;
+    border-radius: 5px;
+    padding: 5px 20px;
+    min-width: 180px;
+    color: darkblue;
+}
+
+a[href^=http] {
+    background: blue;
+}
+
+
+.price {
+    border: 2px rebeccapurple solid;
+    border-collapse: collapse;
+}
+.price td,
+.price th{
+    border-bottom: 1px black solid;
+    padding: 5px 10px;
+}
+
+.price tbody tr:nth-child(odd) {
+    color: rebeccapurple;
+}
+
+.price thead th{
+    color:rgb(54, 14, 14);
+}
+
+.price tbody tr:nth-child(even) {
+    background-color: rgb(207, 188, 195);
+}
+
+.price tbody td:nth-child(4) {
+    text-decoration: underline;
+}
+
